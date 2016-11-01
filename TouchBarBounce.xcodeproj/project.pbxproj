@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BB68981DC8AC1C0064F509 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB68971DC8AC1C0064F509 /* AppDelegate.swift */; };
+		C9BB689A1DC8AC1C0064F509 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB68991DC8AC1C0064F509 /* ViewController.swift */; };
+		C9BB689C1DC8AC1C0064F509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9BB689B1DC8AC1C0064F509 /* Assets.xcassets */; };
+		C9BB689F1DC8AC1C0064F509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BB689D1DC8AC1C0064F509 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9BB68941DC8AC1C0064F509 /* TouchBarBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BB68971DC8AC1C0064F509 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9BB68991DC8AC1C0064F509 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9BB689B1DC8AC1C0064F509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9BB689E1DC8AC1C0064F509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9BB68A01DC8AC1C0064F509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BB68911DC8AC1B0064F509 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BB688B1DC8AC1B0064F509 = {
+			isa = PBXGroup;
+			children = (
+				C9BB68961DC8AC1C0064F509 /* TouchBarBounce */,
+				C9BB68951DC8AC1C0064F509 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BB68951DC8AC1C0064F509 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB68941DC8AC1C0064F509 /* TouchBarBounce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BB68961DC8AC1C0064F509 /* TouchBarBounce */ = {
+			isa = PBXGroup;
+			children = (
+				C9BB68971DC8AC1C0064F509 /* AppDelegate.swift */,
+				C9BB68991DC8AC1C0064F509 /* ViewController.swift */,
+				C9BB689B1DC8AC1C0064F509 /* Assets.xcassets */,
+				C9BB689D1DC8AC1C0064F509 /* Main.storyboard */,
+				C9BB68A01DC8AC1C0064F509 /* Info.plist */,
+			);
+			path = TouchBarBounce;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BB68931DC8AC1B0064F509 /* TouchBarBounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BB68A31DC8AC1C0064F509 /* Build configuration list for PBXNativeTarget "TouchBarBounce" */;
+			buildPhases = (
+				C9BB68901DC8AC1B0064F509 /* Sources */,
+				C9BB68911DC8AC1B0064F509 /* Frameworks */,
+				C9BB68921DC8AC1B0064F509 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchBarBounce;
+			productName = TouchBarBounce;
+			productReference = C9BB68941DC8AC1C0064F509 /* TouchBarBounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BB688C1DC8AC1B0064F509 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Matt Gibson";
+				TargetAttributes = {
+					C9BB68931DC8AC1B0064F509 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3UXX48F2KU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9BB688F1DC8AC1B0064F509 /* Build configuration list for PBXProject "TouchBarBounce" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9BB688B1DC8AC1B0064F509;
+			productRefGroup = C9BB68951DC8AC1C0064F509 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BB68931DC8AC1B0064F509 /* TouchBarBounce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9BB68921DC8AC1B0064F509 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB689C1DC8AC1C0064F509 /* Assets.xcassets in Resources */,
+				C9BB689F1DC8AC1C0064F509 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BB68901DC8AC1B0064F509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB689A1DC8AC1C0064F509 /* ViewController.swift in Sources */,
+				C9BB68981DC8AC1C0064F509 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9BB689D1DC8AC1C0064F509 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9BB689E1DC8AC1C0064F509 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9BB68A11DC8AC1C0064F509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BB68A21DC8AC1C0064F509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C9BB68A41DC8AC1C0064F509 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3UXX48F2KU;
+				INFOPLIST_FILE = TouchBarBounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.org.gothick.TouchBarBounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C9BB68A51DC8AC1C0064F509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3UXX48F2KU;
+				INFOPLIST_FILE = TouchBarBounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.org.gothick.TouchBarBounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BB688F1DC8AC1B0064F509 /* Build configuration list for PBXProject "TouchBarBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB68A11DC8AC1C0064F509 /* Debug */,
+				C9BB68A21DC8AC1C0064F509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BB68A31DC8AC1C0064F509 /* Build configuration list for PBXNativeTarget "TouchBarBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BB68A41DC8AC1C0064F509 /* Debug */,
+				C9BB68A51DC8AC1C0064F509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BB688C1DC8AC1B0064F509 /* Project object */;
+}
