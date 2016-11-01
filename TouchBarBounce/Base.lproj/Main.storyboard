@@ -2,8 +2,10 @@
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaDFRPlugin" version="7104"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11542"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="the Touch Bar" message="Use a version of macOS with Touch Bar support." minToolsVersion="8.1" minSystemVersion="10.12.1" requiredIntegratedClassName="NSTouchBar"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -670,7 +672,75 @@
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
                     </window>
+                    <touchBar key="touchBar" id="2iy-zn-ehQ">
+                        <touchBarItems>
+                            <touchBarItem id="xBA-Dm-fdg">
+                                <viewController key="viewController" id="paz-mi-SoS">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="OdC-dy-ScT">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="38"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarItem id="MrA-Zi-u5F">
+                                <viewController key="viewController" id="dch-JD-mOn">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="pNs-eK-KD1">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="38"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarItem id="NoM-qg-1MB">
+                                <viewController key="viewController" id="BoB-9I-Bxh">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="SvQ-gm-RwT">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="38"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarItem id="ajM-Uy-R9t">
+                                <viewController key="viewController" id="ZEf-8B-jDR">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="cb9-Ah-lPD">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="38"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarItem id="xK6-zf-OFC">
+                                <viewController key="viewController" id="Ur9-Hm-NbN">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="M8Y-hP-lge">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="38"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarItem id="yNA-Qz-y8J">
+                                <viewController key="viewController" id="rcc-DD-v7A">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="9R5-tS-hWA">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="38"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarItem id="D3l-tw-QZc">
+                                <viewController key="viewController" id="Rzw-FZ-ezr">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="k7y-pC-3w4">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="38"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                            <touchBarItem id="zfy-S1-LGb">
+                                <viewController key="viewController" id="DOx-h0-a3I">
+                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JoJ-xM-qq7">
+                                        <rect key="frame" x="0.0" y="0.0" width="113" height="38"/>
+                                    </view>
+                                </viewController>
+                            </touchBarItem>
+                        </touchBarItems>
+                    </touchBar>
                     <connections>
+                        <outlet property="cell0" destination="OdC-dy-ScT" id="9gd-V9-Rs4"/>
+                        <outlet property="cell1" destination="pNs-eK-KD1" id="Awg-pn-pXT"/>
+                        <outlet property="cell2" destination="SvQ-gm-RwT" id="Ggp-Vv-eLA"/>
+                        <outlet property="cell3" destination="cb9-Ah-lPD" id="ST8-BQ-HdJ"/>
+                        <outlet property="cell4" destination="M8Y-hP-lge" id="ktU-Xn-jBN"/>
+                        <outlet property="cell5" destination="9R5-tS-hWA" id="RiX-Qd-4fr"/>
+                        <outlet property="cell6" destination="k7y-pC-3w4" id="Dgt-Pa-M1z"/>
+                        <outlet property="cell7" destination="JoJ-xM-qq7" id="f7U-32-NKn"/>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
                     </connections>
                 </windowController>
