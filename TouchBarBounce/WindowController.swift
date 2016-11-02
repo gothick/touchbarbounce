@@ -28,11 +28,14 @@ class WindowController: NSWindowController {
         anim.fromValue = NSColor.black.cgColor
         anim.toValue = NSColor.blue.cgColor
         anim.fillMode = kCAFillModeForwards
+        anim.autoreverses = true
         anim.isRemovedOnCompletion = false
-
+        
         for (index, cell) in cells.enumerated() {
             cell.wantsLayer = true
-            anim.duration = 1 * CFTimeInterval(index)
+            anim.beginTime =  CACurrentMediaTime() + (0.2 * CFTimeInterval(index)) + 2
+            print("\(anim.beginTime)")
+            anim.duration = 0.3
             cell.layer?.add(anim, forKey: nil)
         }
     }
