@@ -22,7 +22,6 @@ class WindowController: NSWindowController {
     var cells: [NSView] { return [cell0, cell1, cell2, cell3, cell4, cell5, cell6, cell7] }
     override func windowDidLoad() {
         super.windowDidLoad()
-        print(cells)
 
         let anim = CABasicAnimation(keyPath: "backgroundColor")
         anim.fromValue = NSColor.black.cgColor
@@ -32,12 +31,15 @@ class WindowController: NSWindowController {
         anim.isRemovedOnCompletion = false
         
         for (index, cell) in cells.enumerated() {
-            cell.wantsLayer = true
             anim.beginTime =  CACurrentMediaTime() + (0.2 * CFTimeInterval(index)) + 2
-            print("\(anim.beginTime)")
             anim.duration = 0.3
             cell.layer?.add(anim, forKey: nil)
         }
+        /*
+        for (index, cell) in cells.reversed().enumerated() {
+            cell.wantsLayer = true
+        }
+        */
     }
 }
 
