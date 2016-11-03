@@ -674,81 +674,114 @@
                     </window>
                     <touchBar key="touchBar" id="2iy-zn-ehQ">
                         <touchBarItems>
-                            <touchBarItem id="xBA-Dm-fdg">
-                                <viewController key="viewController" id="paz-mi-SoS">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="OdC-dy-ScT">
-                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
-                                    </view>
+                            <touchBarItem id="bb2-N1-OJc">
+                                <viewController key="viewController" id="HkO-l1-id9">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Pvc-hJ-wGo">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="🦄" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="4UL-2Q-fEl">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                        </buttonCell>
+                                    </button>
                                 </viewController>
-                                <size key="designTimeSize" width="111.5" height="38"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
-                            <touchBarItem id="MrA-Zi-u5F">
-                                <viewController key="viewController" id="dch-JD-mOn">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="pNs-eK-KD1">
-                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
-                                    </view>
+                            <touchBarItem id="Lxd-XK-Ehs">
+                                <viewController key="viewController" id="pRw-AT-cet">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vvT-QB-mwx">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="🦄" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Aca-u2-TzG">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                        </buttonCell>
+                                    </button>
                                 </viewController>
-                                <size key="designTimeSize" width="111.5" height="38"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
-                            <touchBarItem id="NoM-qg-1MB">
-                                <viewController key="viewController" id="BoB-9I-Bxh">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="SvQ-gm-RwT">
-                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
-                                    </view>
+                            <touchBarItem id="eki-e3-WBK">
+                                <viewController key="viewController" id="vNa-Tb-W3z">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uuD-Ad-lDz">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="🦄" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mCr-FS-yET">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                        </buttonCell>
+                                    </button>
                                 </viewController>
-                                <size key="designTimeSize" width="111.5" height="38"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
-                            <touchBarItem id="ajM-Uy-R9t">
-                                <viewController key="viewController" id="ZEf-8B-jDR">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="cb9-Ah-lPD">
-                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
-                                    </view>
+                            <touchBarItem id="bdp-iO-HnC">
+                                <viewController key="viewController" id="1Hy-P8-hp9">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="oiG-2R-HCu">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="🦄" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="pGs-Uj-Rzb">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                        </buttonCell>
+                                    </button>
                                 </viewController>
-                                <size key="designTimeSize" width="111.5" height="38"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
-                            <touchBarItem id="xK6-zf-OFC">
-                                <viewController key="viewController" id="Ur9-Hm-NbN">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="M8Y-hP-lge">
-                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
-                                    </view>
+                            <touchBarItem id="PIg-Zd-37L">
+                                <viewController key="viewController" id="xik-7b-tFe">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="aBf-eW-DWT">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="🦄" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="D9T-AL-emI">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                        </buttonCell>
+                                    </button>
                                 </viewController>
-                                <size key="designTimeSize" width="111.5" height="38"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
-                            <touchBarItem id="yNA-Qz-y8J">
-                                <viewController key="viewController" id="rcc-DD-v7A">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="9R5-tS-hWA">
-                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
-                                    </view>
+                            <touchBarItem id="qF7-pc-sRu">
+                                <viewController key="viewController" id="GdJ-b0-iOl">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Trj-oR-g8c">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="🦄" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="t78-3E-MPO">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                        </buttonCell>
+                                    </button>
                                 </viewController>
-                                <size key="designTimeSize" width="111.5" height="38"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
-                            <touchBarItem id="D3l-tw-QZc">
-                                <viewController key="viewController" id="Rzw-FZ-ezr">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="k7y-pC-3w4">
-                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
-                                    </view>
+                            <touchBarItem id="85Y-UV-Czb">
+                                <viewController key="viewController" id="XYb-rY-mtG">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dIf-r7-qcO">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="🦄" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="N9h-Rk-bz2">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                        </buttonCell>
+                                    </button>
                                 </viewController>
-                                <size key="designTimeSize" width="111.5" height="38"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
-                            <touchBarItem id="zfy-S1-LGb">
-                                <viewController key="viewController" id="DOx-h0-a3I">
-                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="JoJ-xM-qq7">
-                                        <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
-                                    </view>
+                            <touchBarItem id="QNo-hI-bez">
+                                <viewController key="viewController" id="5d7-t9-WWx">
+                                    <button key="view" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="y4n-zI-UOS">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                        <buttonCell key="cell" type="push" title="🦄" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="jy0-Ys-f3u">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" size="13" name="AppleColorEmoji"/>
+                                        </buttonCell>
+                                    </button>
                                 </viewController>
-                                <size key="designTimeSize" width="111.5" height="38"/>
+                                <size key="designTimeSize" width="72" height="30"/>
                             </touchBarItem>
                         </touchBarItems>
                     </touchBar>
                     <connections>
-                        <outlet property="cell0" destination="OdC-dy-ScT" id="9gd-V9-Rs4"/>
-                        <outlet property="cell1" destination="pNs-eK-KD1" id="Awg-pn-pXT"/>
-                        <outlet property="cell2" destination="SvQ-gm-RwT" id="Ggp-Vv-eLA"/>
-                        <outlet property="cell3" destination="cb9-Ah-lPD" id="ST8-BQ-HdJ"/>
-                        <outlet property="cell4" destination="M8Y-hP-lge" id="ktU-Xn-jBN"/>
-                        <outlet property="cell5" destination="9R5-tS-hWA" id="RiX-Qd-4fr"/>
-                        <outlet property="cell6" destination="k7y-pC-3w4" id="Dgt-Pa-M1z"/>
-                        <outlet property="cell7" destination="JoJ-xM-qq7" id="f7U-32-NKn"/>
+                        <outlet property="cell0" destination="Pvc-hJ-wGo" id="dN8-CW-wOc"/>
+                        <outlet property="cell1" destination="vvT-QB-mwx" id="AIU-UW-NlM"/>
+                        <outlet property="cell2" destination="uuD-Ad-lDz" id="h4Q-dZ-1o9"/>
+                        <outlet property="cell3" destination="oiG-2R-HCu" id="RpC-gf-O1v"/>
+                        <outlet property="cell4" destination="aBf-eW-DWT" id="znw-k0-k1F"/>
+                        <outlet property="cell5" destination="Trj-oR-g8c" id="s2d-I4-zec"/>
+                        <outlet property="cell6" destination="dIf-r7-qcO" id="GmE-hP-stx"/>
+                        <outlet property="cell6t" destination="dIf-r7-qcO" id="ecL-Wd-QLR"/>
+                        <outlet property="cell7" destination="y4n-zI-UOS" id="6aX-X9-DyY"/>
                         <segue destination="XfG-lQ-9wD" kind="relationship" relationship="window.shadowedContentViewController" id="cq2-FE-JQM"/>
                     </connections>
                 </windowController>

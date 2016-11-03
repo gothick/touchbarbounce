@@ -11,26 +11,28 @@ import Cocoa
 @available(OSX 10.12.1, *)
 class WindowController: NSWindowController {
 
-    @IBOutlet weak var cell0: NSView!
-    @IBOutlet weak var cell1: NSView!
-    @IBOutlet weak var cell2: NSView!
-    @IBOutlet weak var cell3: NSView!
-    @IBOutlet weak var cell4: NSView!
-    @IBOutlet weak var cell5: NSView!
-    @IBOutlet weak var cell6: NSView!
-    @IBOutlet weak var cell7: NSView!
+    @IBOutlet weak var cell0: NSButton!
+    @IBOutlet weak var cell1: NSButton!
+    @IBOutlet weak var cell2: NSButton!
+    @IBOutlet weak var cell3: NSButton!
+    @IBOutlet weak var cell4: NSButton!
+    @IBOutlet weak var cell5: NSButton!
+    @IBOutlet weak var cell6: NSButton!
+    @IBOutlet weak var cell7: NSButton!
     
-    @IBOutlet weak var touchBarGroup: NSGroupTouchBarItem!
     var cells: [NSView] { return [cell0, cell1, cell2, cell3, cell4, cell5, cell6, cell7] }
     override func windowDidLoad() {
         super.windowDidLoad()
         for cell in cells {
             cell.layer = CALayer()
             cell.wantsLayer = true
+            cell.layer?.opacity = 0.0
+            
         }
-        let anim = CABasicAnimation(keyPath: "backgroundColor")
-        anim.fromValue = NSColor.black.cgColor
-        anim.toValue = NSColor(red: 0.7, green: 0, blue: 0, alpha: 1).cgColor
+        
+        let anim = CABasicAnimation(keyPath: "opacity")
+        anim.fromValue = 0.0
+        anim.toValue = 1.0
         anim.fillMode = kCAFillModeForwards
         anim.autoreverses = true
         anim.isRemovedOnCompletion = false
