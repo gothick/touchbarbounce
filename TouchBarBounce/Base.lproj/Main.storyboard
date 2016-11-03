@@ -676,7 +676,7 @@
                         <touchBarItems>
                             <touchBarItem id="xBA-Dm-fdg">
                                 <viewController key="viewController" id="paz-mi-SoS">
-                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OdC-dy-ScT">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="OdC-dy-ScT">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
                                     </view>
                                 </viewController>
@@ -684,7 +684,7 @@
                             </touchBarItem>
                             <touchBarItem id="MrA-Zi-u5F">
                                 <viewController key="viewController" id="dch-JD-mOn">
-                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pNs-eK-KD1">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="pNs-eK-KD1">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
                                     </view>
                                 </viewController>
@@ -692,7 +692,7 @@
                             </touchBarItem>
                             <touchBarItem id="NoM-qg-1MB">
                                 <viewController key="viewController" id="BoB-9I-Bxh">
-                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SvQ-gm-RwT">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="SvQ-gm-RwT">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
                                     </view>
                                 </viewController>
@@ -700,7 +700,7 @@
                             </touchBarItem>
                             <touchBarItem id="ajM-Uy-R9t">
                                 <viewController key="viewController" id="ZEf-8B-jDR">
-                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cb9-Ah-lPD">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="cb9-Ah-lPD">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
                                     </view>
                                 </viewController>
@@ -708,7 +708,7 @@
                             </touchBarItem>
                             <touchBarItem id="xK6-zf-OFC">
                                 <viewController key="viewController" id="Ur9-Hm-NbN">
-                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M8Y-hP-lge">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="M8Y-hP-lge">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
                                     </view>
                                 </viewController>
@@ -716,7 +716,7 @@
                             </touchBarItem>
                             <touchBarItem id="yNA-Qz-y8J">
                                 <viewController key="viewController" id="rcc-DD-v7A">
-                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9R5-tS-hWA">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="9R5-tS-hWA">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
                                     </view>
                                 </viewController>
@@ -724,7 +724,7 @@
                             </touchBarItem>
                             <touchBarItem id="D3l-tw-QZc">
                                 <viewController key="viewController" id="Rzw-FZ-ezr">
-                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k7y-pC-3w4">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="k7y-pC-3w4">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
                                     </view>
                                 </viewController>
@@ -732,7 +732,7 @@
                             </touchBarItem>
                             <touchBarItem id="zfy-S1-LGb">
                                 <viewController key="viewController" id="DOx-h0-a3I">
-                                    <view key="view" wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JoJ-xM-qq7">
+                                    <view key="view" translatesAutoresizingMaskIntoConstraints="NO" id="JoJ-xM-qq7">
                                         <rect key="frame" x="0.0" y="0.0" width="111.5" height="38"/>
                                     </view>
                                 </viewController>

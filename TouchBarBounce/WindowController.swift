@@ -8,6 +8,7 @@
 
 import Cocoa
 
+@available(OSX 10.12.1, *)
 class WindowController: NSWindowController {
 
     @IBOutlet weak var cell0: NSView!
@@ -19,27 +20,31 @@ class WindowController: NSWindowController {
     @IBOutlet weak var cell6: NSView!
     @IBOutlet weak var cell7: NSView!
     
+    @IBOutlet weak var touchBarGroup: NSGroupTouchBarItem!
     var cells: [NSView] { return [cell0, cell1, cell2, cell3, cell4, cell5, cell6, cell7] }
     override func windowDidLoad() {
         super.windowDidLoad()
-
+        for cell in cells {
+            cell.layer = CALayer()
+            cell.wantsLayer = true
+        }
         let anim = CABasicAnimation(keyPath: "backgroundColor")
         anim.fromValue = NSColor.black.cgColor
-        anim.toValue = NSColor.blue.cgColor
+        anim.toValue = NSColor(red: 0.7, green: 0, blue: 0, alpha: 1).cgColor
         anim.fillMode = kCAFillModeForwards
         anim.autoreverses = true
         anim.isRemovedOnCompletion = false
         
         for (index, cell) in cells.enumerated() {
-            anim.beginTime =  CACurrentMediaTime() + (0.2 * CFTimeInterval(index)) + 2
+            anim.beginTime = CACurrentMediaTime() + (0.2 * CFTimeInterval(index)) + 2
             anim.duration = 0.3
             cell.layer?.add(anim, forKey: nil)
         }
-        /*
         for (index, cell) in cells.reversed().enumerated() {
-            cell.wantsLayer = true
+            anim.beginTime = CACurrentMediaTime() + (0.2 * CFTimeInterval(index)) + 3.4
+            anim.duration = 0.3
+            cell.layer?.add(anim, forKey: nil)
         }
-        */
     }
 }
 
